@@ -4,25 +4,26 @@ import java.util.*;
 
 public class LC_989 {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(1,2,3));
-        List<Integer> list1 = new ArrayList<>();
-        int k = 914;
-        int n = list.size();
+        int num[] = new int[]{1,2,0,0};
+        int k = 23;
+        List<Integer> result = new ArrayList<>();
+        int n = num.length;
+        int carry = k;
         for(int i=n-1;i>=0;i--){
-            int num = list.get(i);
-            int sum = num + k;
-            int val = sum % 10;
-            k = sum / 10;
-            list1.add(val);
+            int currentDigit = num[i];
+            int sum = currentDigit + carry;
+            int resultDigit = sum % 10;
+            carry = sum / 10;
+            result.add(resultDigit);
         }
-        while(k!=0){
-            int val = k % 10;
-            list1.add(val);
-            k /= 10;
+        while(carry!=0){
+            result.add(carry%10);
+            carry /= 10;
+        }
 
-        }
-        Collections.reverse(list1);
-        System.out.println(list1);
+        Collections.reverse(result);
+        System.out.println(result);
+
 
     }
 
