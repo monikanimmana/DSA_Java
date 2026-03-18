@@ -7,26 +7,18 @@ public class LC_209 {
     public int MinSubArray(int arr[],int T){
         int sum =0;
         int minlength = Integer.MAX_VALUE;
-        int count = 0;
         int n =arr.length;
         int i=0; 
         for(int j=0;j<n;j++){
             sum += arr[j];
-            count++;
             while(sum >= T){
-                minlength = Math.min(minlength,count);
+                minlength = Math.min(minlength,j-i+1);
                 sum -= arr[i];
-                count--;
                 i++;
             }
-        }if(minlength != Integer.MAX_VALUE){
-            return minlength;
-
-        }else{
-            return 0;
         }
+        return (minlength == Integer.MAX_VALUE)?0:minlength;
         
-
     }
     public static void main(String[] args) {
         LC_209 obj = new LC_209();
