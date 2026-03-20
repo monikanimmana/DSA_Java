@@ -3,7 +3,7 @@ package Arrays;
 import java.util.Scanner;
 
 public class LC_713{
-    public int subarray(int arr[] , int k){
+    public int numSubarrayProductLessThanK(int arr[] , int k){
         int product = 1;
         int left=0;
         int count = 0;
@@ -29,6 +29,6 @@ public class LC_713{
             arr[i] = sc.nextInt();
         }
         int k =sc.nextInt();
-        System.out.println(obj.subarray(arr,k));
+        System.out.println(obj.numSubarrayProductLessThanK(arr,k));
     }
 }
