@@ -1,6 +1,6 @@
 package Arrays;
 
-public class LC_1439{
+public class LC_1493{
     public int longestSubarray(int nums[]){
         int left =0;
         int max_subarray = 0;
@@ -21,7 +21,7 @@ public class LC_1439{
         return max_subarray;
     }
     public static void main(String[] args) {
-        LC_1439 obj = new LC_1439();
+        LC_1493 obj = new LC_1493();
         int nums[] = new int[]{0,1,1,1,0,1,1,0,1};
         System.out.println(obj.longestSubarray(nums));
     }
