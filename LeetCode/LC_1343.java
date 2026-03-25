@@ -1,4 +1,4 @@
-package Arrays;
+
 import java.util.*;
 public class LC_1343{
     public int numOfSubarrays(int arr[], int k , int threshold){

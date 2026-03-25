@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class LC_1493{
     public int longestSubarray(int nums[]){

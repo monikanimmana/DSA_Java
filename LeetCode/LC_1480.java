@@ -1,4 +1,4 @@
-package Arrays;
+
 import java.util.*;
 
 class LC_1480 {

@@ -1,5 +1,5 @@
 
-package Arrays;
+
 
 public class LC_67 {
     public void BinaryAddition(){

@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class LC_14 {
     void longestcommonprefix(){
