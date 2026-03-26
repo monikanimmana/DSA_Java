@@ -19,7 +19,10 @@ public class LC_525 {
                 length=i-(map.get(sum));
                 max_length=Math.max(max_length,length);
             }
-            map.put(sum,i);
+            if(!map.containsKey(sum)){
+                map.put(sum,i);
+            }
+           
 
         }
         return max_length;
