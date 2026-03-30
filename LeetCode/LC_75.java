@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
-public class LC_18{
+public class LC_75{
     public int[] sortColour(int arr[]){
         int low=0;
         int mid=0;
         int high=arr.length-1;
-        while(mid<high){
+        while(mid<=high){
             if(arr[mid]==0){
                 int temp=arr[low];
                 arr[low]=arr[mid];
@@ -24,8 +24,8 @@ public class LC_18{
         return arr;
     }
     public static void main(String[] args) {
-        LC_18 obj=new LC_18();
-        int arr[] = new int[]{2,0,1,0,1,1,1,0,0,2,1,2,0,0,2,1,1,2,0,2,0,1};
+        LC_75 obj=new LC_75();
+        int arr[] = new int[]{2,0,1};
         System.out.println(Arrays.toString(obj.sortColour(arr)));
     }
 }
