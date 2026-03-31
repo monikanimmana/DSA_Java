@@ -2,7 +2,7 @@ package DSA_Java.ArrayPlay;
 
 import java.util.Arrays;
 
-public class basicArrayRotation {
+public class basicRightArrayRotation {
     public int[] arrayrotate(int arr[],int k){
         int n= arr.length;
         int new_arr[] = new int[n];
@@ -12,7 +12,7 @@ public class basicArrayRotation {
         return new_arr;
     }
     public static void main(String[] args) {
-        basicArrayRotation obj=new basicArrayRotation();
+        basicRightArrayRotation obj=new basicRightArrayRotation();
         int arr[] = new int[]{1,2,3,4,5,6,7};
         int k=3;
         System.out.println(Arrays.toString(obj.arrayrotate(arr, k)));
