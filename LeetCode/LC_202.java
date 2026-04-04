@@ -29,7 +29,7 @@ public class LC_202{
     }
     public static void main(String[] args) {
         LC_202 obj=new LC_202();
-        int n=19;
+        int n=199;
         System.out.println(obj.isHappy(n));
     }
     
