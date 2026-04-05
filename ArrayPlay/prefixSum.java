@@ -1,6 +1,4 @@
 
-import java.util.Arrays;
-
 public class prefixSum {
      public int prefixsum(int arr[],int n){
         int prefix[] = new int[n];
