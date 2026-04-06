@@ -3,13 +3,9 @@ public class LC_122 {
         int buyprice=nums[0];
         int max_price=0;
         for(int i=1;i<nums.length;i++){
-            int profit= nums[i]-buyprice;
-
-            if(profit>0){
-                max_price += profit;
+            if(nums[i] > nums[i-1]){
+                max_price += nums[i]-nums[i-1];
             }
-
-            buyprice=nums[i];
         }
         return max_price;
     }
