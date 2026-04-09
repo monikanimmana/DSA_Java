@@ -1,5 +1,4 @@
 
-
 public class lowerbound {
     public int findlower(int nums[],int n){
         int low=0;
