@@ -41,6 +41,6 @@ public class LC_18 {
         LC_18 obj=new LC_18();
         int nums[] = new int[]{1,0,-1,0,-2,2};
         int target=0;
-        System.out.println(obj.fourSum(nums, 0));
+        System.out.println(obj.fourSum(nums, target=0));
     }
 }

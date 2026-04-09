@@ -1,6 +1,4 @@
-
-
-import java.util.*;
+import java.util.Arrays;
 
 public class LC_88 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -28,7 +26,6 @@ public class LC_88 {
         
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         LC_88 obj = new LC_88();
         int m = 3;
         int n = 3;

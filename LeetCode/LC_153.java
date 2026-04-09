@@ -22,7 +22,7 @@ public class LC_153{
     }
     public static void main(String[] args) {
         LC_153 obj=new LC_153();
-        int nums[] = new int[]{11,12,13,14};
+        int nums[] = new int[]{2, 2, 2, 3, 4, 2};
         System.out.println(obj.minvalue(nums));
     }
 }

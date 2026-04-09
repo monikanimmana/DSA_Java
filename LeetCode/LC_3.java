@@ -1,7 +1,6 @@
 
 
 import java.util.HashSet;
-import java.util.Scanner;
 import java.util.Set;
 
 public class LC_3 {
@@ -21,8 +20,7 @@ public class LC_3 {
     }
     public static void main(String[] args) {
         LC_3 obj = new LC_3();
-        Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
+        String s = "stringname";
         System.out.println(obj.lengthOfLongestSubstring(s));
     }
     
