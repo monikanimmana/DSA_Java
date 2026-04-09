@@ -1,4 +1,4 @@
-package BinarySearch;
+
 
 public class lowerbound {
     public int findlower(int nums[],int n){

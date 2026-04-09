@@ -1,4 +1,4 @@
-package BinarySearch;
+
 
 public class upperbound {
     public int findupper(int nums[],int n){
