@@ -6,7 +6,7 @@ public class LC_1552 {
         int low=0;
         int high=position[n-1]-position[0];
         while(low<=high){
-            int mid=low+high/2;
+            int mid=(low+high)/2;
             if(minMagnet(position, mid,m)){
                 low=mid+1;
             }else{
