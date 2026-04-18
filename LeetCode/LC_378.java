@@ -18,7 +18,7 @@ public class LC_378 {
         int row=0;
         int col=matrix.length-1;
         int element_count=0;
-        while(row<=matrix.length-1 && col>=0){
+        while(row<matrix.length-1 && col>=0){
             if(matrix[row][col]<=mid){
                 element_count+=(col+1);
                 row++;
