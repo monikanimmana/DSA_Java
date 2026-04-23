@@ -1,4 +1,4 @@
-public class factional_recusion {
+public class factorial_recursion {
     public int factorial(int n){
         if (n==1){
             return n;
@@ -6,7 +6,7 @@ public class factional_recusion {
         return n * factorial(n-1);
     }
     public static void main(String[] args) {
-        factional_recusion obj=new factional_recusion();
+        factorial_recursion obj=new factorial_recursion();
         int total= obj.factorial(5);
         System.out.println(total);
     }
