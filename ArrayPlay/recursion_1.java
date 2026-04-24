@@ -3,11 +3,11 @@ public class recursion_1 {
         if(n==0){
             return 0;
         }
-        return n + sum(n-1);
+        return n%10 + sum(n/10);
     }
     public static void main(String[] args) {
         recursion_1 obj=new recursion_1();
-        int total=obj.sum(5);
+        int total=obj.sum(1234);
         System.out.println(total);
     }
 }
