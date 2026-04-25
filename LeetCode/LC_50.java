@@ -34,6 +34,7 @@ public class LC_50{
 //     x=1/x;
 //     N=-N;
 // }
+// double result=1;
 // while(N>0){
 //     if((N&1)==1){
 //         result*=x;
