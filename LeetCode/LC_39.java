@@ -10,16 +10,16 @@ public class LC_39 {
     }
     public void checksubset(int nums[], int target, List<Integer> list , int indx, List<List<Integer>> result){
         if(indx==nums.length){
-            if(target==0){
-                result.add(new ArrayList<>(list));
-            }
-            return ;
+            return;
         }
-        if(nums[indx]<target){
+        if(target==0){
+            result.add(new ArrayList<>(list));
+            return;
+        }
+        if(nums[indx]<=target){
             list.add(nums[indx]);
             checksubset(nums, target-nums[indx], list, indx, result);
             list.remove(list.size()-1);
-            target+=nums[indx];
         }
         checksubset(nums, target, list, indx+1, result);
     }
