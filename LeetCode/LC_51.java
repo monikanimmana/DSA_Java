@@ -53,5 +53,10 @@ public class LC_51 {
 
         return temp;
     }
+    public static void main(String[] args) {
+        LC_51 obj=new LC_51();
+        int n=5;
+        System.out.println(obj.solveNQueens(n));
+    }
 }
 
