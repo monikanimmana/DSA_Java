@@ -3,13 +3,13 @@
 # ☕ Java DSA & Competitive Programming Solutions
 
 [![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Solutions-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://geeksforgeeks.org)
-[![HackerRank](https://img.shields.io/badge/HackerRank-Solutions-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://hackerrank.com)
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge&logo=github&color=yellow)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge&logo=github&color=blue)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge&logo=git&color=red)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/commits)
-[![License](https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge)](LICENSE)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/monika_nimmana/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Solutions-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/monikanimmanah)
+[![HackerRank](https://img.shields.io/badge/HackerRank-Solutions-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/monikanimmana331)
+[![GitHub Stars](https://img.shields.io/github/stars/monikanimmana/DSA_Java?style=for-the-badge&logo=github&color=yellow)](https://github.com/monikanimmana/DSA_Java/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/monikanimmana/DSA_Java?style=for-the-badge&logo=github&color=blue)](https://github.com/monikanimmana/DSA_Java/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/monikanimmana/DSA_Java?style=for-the-badge&logo=git&color=red)](https://github.com/monikanimmana/DSA_Java/commits)
+[![License](https://img.shields.io/github/license/monikanimmana/DSA_Java?style=for-the-badge)](LICENSE)
 
 **A curated collection of Java solutions for DSA problems and competitive programming challenges — organized by platform, topic, and difficulty.**
 
@@ -40,61 +40,7 @@ Whether you're prepping for FAANG interviews or brushing up on fundamentals, thi
 | Codio | `[COUNT]` | Core Java, OOP, Assignments | — |
 | **Total** | **`[TOTAL]`** | **15+ DSA Topics** | **All Levels** |
 
-> 💡 Counts reflect `.java` solution files. Update these as you add more solutions.
-
----
-
-
-## 🗂️ Repository Structure
-
-
-```text
-java-dsa-solutions/
-│
-├── LeetCode/
-│   ├── Easy/
-│   │   ├── TwoSum.java
-│   │   ├── ReverseString.java
-│   │   └── ...
-│   ├── Medium/
-│   │   ├── LongestSubstringWithoutRepeating.java
-│   │   ├── AddTwoNumbers.java
-│   │   └── ...
-│   └── Hard/
-│       ├── MedianOfTwoSortedArrays.java
-│       └── ...
-│
-├── GeeksforGeeks/
-│   ├── Arrays/
-│   ├── LinkedLists/
-│   ├── Trees/
-│   ├── DynamicProgramming/
-│   ├── Graphs/
-│   ├── Sorting/
-│   └── Hashing/
-│
-├── HackerRank/
-│   ├── DataStructures/
-│   │   ├── Arrays/
-│   │   ├── LinkedLists/
-│   │   └── Trees/
-│   └── Algorithms/
-│       ├── Sorting/
-│       ├── Searching/
-│       └── Greedy/
-│
-├── Codio/
-│   ├── Assignments/
-│   └── Projects/
-│
-└── README.md
-```
-
-> 📝 Folders are added as new problems are solved.
-
----
-
----
+> 💡 Update counts as you add more solutions. Open the repo folder in Kiro to auto-fill these.
 
 ---
 
@@ -153,53 +99,105 @@ java-dsa-solutions/
 
 | Status | Count | Topics |
 |---|---|---|
-| ✅ Solved | 12 | Arrays, Hashing, Sorting, Bit Manipulation, Linked Lists, Stacks & Queues, Two Pointers, Heaps, Trees, Graphs, DP, Recursion, Greedy |
+| ✅ Solved | 13 | Arrays, Hashing, Sorting, Bit Manipulation, Linked Lists, Stacks & Queues, Two Pointers, Heaps, Trees, Graphs, DP, Recursion, Greedy |
 | 🔄 In Progress | 1 | Tries |
 | 📅 Planned | 3 | Segment Trees, DSU, Math & Number Theory |
-| **Total Topics** | **16** | |
+| **Total Topics** | **17** | |
 
 ---
 
 > **Legend:** ✅ Solved &nbsp;·&nbsp; 🔄 In Progress &nbsp;·&nbsp; 📅 Planned
 
+---
+
+## 🗂️ Repository Structure
+
+```text
+DSA_Java/
+│
+├── LeetCode/
+│   ├── Easy/
+│   │   ├── TwoSum.java
+│   │   ├── ReverseString.java
+│   │   └── ...
+│   ├── Medium/
+│   │   ├── LongestSubstringWithoutRepeating.java
+│   │   ├── AddTwoNumbers.java
+│   │   └── ...
+│   └── Hard/
+│       ├── MedianOfTwoSortedArrays.java
+│       └── ...
+│
+├── GeeksforGeeks/
+│   ├── Arrays/
+│   ├── LinkedLists/
+│   ├── Trees/
+│   ├── DynamicProgramming/
+│   ├── Graphs/
+│   ├── Sorting/
+│   └── Hashing/
+│
+├── HackerRank/
+│   ├── DataStructures/
+│   │   ├── Arrays/
+│   │   ├── LinkedLists/
+│   │   └── Trees/
+│   └── Algorithms/
+│       ├── Sorting/
+│       ├── Searching/
+│       └── Greedy/
+│
+├── Codio/
+│   ├── Assignments/
+│   └── Projects/
+│
+└── README.md
+```
+
+> 📝 Folders are added as new problems are solved.
 
 ---
 
 ## 🔗 Platform Profiles
 
-| Platform | Profile Link |
+| Platform | Profile |
 |---|---|
-| 🟡 LeetCode | [Your LeetCode Profile](https://leetcode.com/YOUR_USERNAME) |
-| 🟢 GeeksforGeeks | [Your GFG Profile](https://auth.geeksforgeeks.org/user/YOUR_USERNAME) |
-| 🟩 HackerRank | [Your HackerRank Profile](https://www.hackerrank.com/YOUR_USERNAME) |
-| 🔵 Codio | [Codio](https://codio.com) |
+| 🟡 LeetCode | [monika\_nimmana](https://leetcode.com/u/monika_nimmana/) |
+| 🟢 GeeksforGeeks | [monikanimmanah](https://www.geeksforgeeks.org/profile/monikanimmanah) |
+| 🟩 HackerRank | [monikanimmana331](https://www.hackerrank.com/profile/monikanimmana331) |
+| 🔵 Codolio | [monika\_nimmana](https://codolio.com/profile/monika_nimmana) |
+| ⚫ GitHub | [monikanimmana/DSA\_Java](https://github.com/monikanimmana/DSA_Java) |
 
 ---
 
 ## 🚀 How to Run Solutions Locally
 
 ### Prerequisites
-- Java 17+ installed → [Download JDK](https://adoptium.net/)
-- Git installed → [Download Git](https://git-scm.com/)
+- Java 17+ → [Download JDK](https://adoptium.net/)
+- Git → [Download Git](https://git-scm.com/)
 
 ### Steps
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/monikanimmana/DSA_Java.git
 
 # 2. Navigate into the repo
-cd YOUR_REPO_NAME
+cd DSA_Java
 
 # 3. Go to the solution you want to run
-cd LeetCode/Medium/
+cd LeetCode/Easy/
 
-# 4. Compile the Java file
+# 4. Compile
 javac TwoSum.java
 
-# 5. Run it
+# 5. Run
 java TwoSum
+```
 
+### Example — LeetCode Two Sum
+
+```java
 // File: LeetCode/Easy/TwoSum.java
 import java.util.HashMap;
 
@@ -224,14 +222,20 @@ public class TwoSum {
 }
 ```
 
+---
+
 ## 📈 Progress Tracker
 
 | Platform | Progress | Solved |
 |---|---|---|
-| 🟡 LeetCode | ![](https://img.shields.io/badge/progress-X%20%2F%202000%2B-2ea44f?style=flat-square) | X / 2000+ |
-| 🟢 GeeksforGeeks | ![](https://img.shields.io/badge/progress-X%20%2F%20500%2B-2ea44f?style=flat-square) | X / 500+ |
-| 🟩 HackerRank | ![](https://img.shields.io/badge/progress-X%20%2F%20400%2B-2ea44f?style=flat-square) | X / 400+ |
-| 🔵 Codio | ![](https://img.shields.io/badge/progress-X%20%2F%20N%2FA-8b8b8b?style=flat-square) | X / N/A |
+| 🟡 LeetCode | ![](https://img.shields.io/badge/progress-updating-FFA116?style=flat-square) | `[COUNT]` / 2000+ |
+| 🟢 GeeksforGeeks | ![](https://img.shields.io/badge/progress-updating-2F8D46?style=flat-square) | `[COUNT]` / 500+ |
+| 🟩 HackerRank | ![](https://img.shields.io/badge/progress-updating-00EA64?style=flat-square) | `[COUNT]` / 400+ |
+| 🔵 Codio | ![](https://img.shields.io/badge/progress-updating-0052CC?style=flat-square) | `[COUNT]` / N/A |
+
+> 🔄 Updated regularly as new solutions are added.
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -239,7 +243,37 @@ public class TwoSum {
 |---|---|
 | **Language** | Java 17+ |
 | **IDE** | IntelliJ IDEA / VS Code |
-| **Build Tool** | None (plain `javac`) — or Maven/Gradle if configured |
+| **Build Tool** | None (plain `javac`) |
 | **Version Control** | Git + GitHub |
 | **Platforms** | LeetCode, GeeksforGeeks, HackerRank, Codio |
 
+---
+
+## 🤝 Contributing
+
+This is a personal learning repository, but PRs for corrections or better approaches are welcome.
+
+1. Fork the repo
+2. Create a branch: `git checkout -b fix/problem-name`
+3. Commit: `git commit -m "fix: improved solution for ProblemName"`
+4. Push and open a Pull Request
+
+Please keep solutions in **Java** and include time/space complexity in comments.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+### ⭐ If this repo helped you, please give it a star — it keeps me motivated!
+
+[![Star this repo](https://img.shields.io/github/stars/monikanimmana/DSA_Java?style=social)](https://github.com/monikanimmana/DSA_Java)
+
+*Happy Coding! Keep grinding. 💪☕*
+
+</div>
