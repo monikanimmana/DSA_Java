@@ -203,6 +203,7 @@ public class TwoSum {
         System.out.println(result[0] + ", " + result[1]); // Output: 0, 1
     }
 }
+```
 
 ## 📈 Progress Tracker
 
