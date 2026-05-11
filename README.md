@@ -96,52 +96,71 @@ java-dsa-solutions/
 
 ---
 
+---
+
 ## 🧩 Topics & Concepts Covered
 
-> Organized by category · Color coded by status
-
-![Solved](https://img.shields.io/badge/Solved-2ea44f?style=flat-square) 
-![In Progress](https://img.shields.io/badge/In_Progress-f0a500?style=flat-square) 
-![Planned](https://img.shields.io/badge/Planned-8b8b8b?style=flat-square)
+> 📁 Organized by category · Status based on `.java` file count per topic
 
 ---
 
 ### 🔢 Foundations
 
-![Arrays & Strings](https://img.shields.io/badge/Arrays_%26_Strings-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Hashing](https://img.shields.io/badge/Hashing-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Sorting & Searching](https://img.shields.io/badge/Sorting_%26_Searching-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Bit Manipulation](https://img.shields.io/badge/Bit_Manipulation-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+| Topic | Status | Files | Difficulty Range |
+|---|---|---|---|
+| Arrays & Strings | ✅ Solved | 42 files | Easy → Hard |
+| Hashing | ✅ Solved | 18 files | Easy → Medium |
+| Sorting & Searching | ✅ Solved | 23 files | Easy → Hard |
+| Bit Manipulation | ✅ Solved | 11 files | Easy → Medium |
 
 ---
 
 ### 🔗 Linear Data Structures
 
-![Linked Lists](https://img.shields.io/badge/Linked_Lists-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Stacks & Queues](https://img.shields.io/badge/Stacks_%26_Queues-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Two Pointers / Sliding Window](https://img.shields.io/badge/Two_Pointers_%2F_Sliding_Window-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Heaps & Priority Queues](https://img.shields.io/badge/Heaps_%26_Priority_Queues-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+| Topic | Status | Files | Difficulty Range |
+|---|---|---|---|
+| Linked Lists | ✅ Solved | 19 files | Easy → Hard |
+| Stacks & Queues | ✅ Solved | 15 files | Easy → Medium |
+| Two Pointers / Sliding Window | ✅ Solved | 27 files | Easy → Hard |
+| Heaps & Priority Queues | ✅ Solved | 13 files | Medium → Hard |
 
 ---
 
 ### 🌲 Trees & Graphs
 
-![Trees & BST](https://img.shields.io/badge/Trees_%26_BST-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Graphs BFS/DFS](https://img.shields.io/badge/Graphs_BFS%2FDFS-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Tries](https://img.shields.io/badge/Tries-In_Progress-f0a500?style=for-the-badge&logo=java&logoColor=white)
-![Segment Trees](https://img.shields.io/badge/Segment_Trees-Planned-8b8b8b?style=for-the-badge&logo=java&logoColor=white)
-![Disjoint Set Union](https://img.shields.io/badge/Disjoint_Set_Union-Planned-8b8b8b?style=for-the-badge&logo=java&logoColor=white)
+| Topic | Status | Files | Difficulty Range |
+|---|---|---|---|
+| Trees & BST | ✅ Solved | 31 files | Easy → Hard |
+| Graphs BFS / DFS | ✅ Solved | 22 files | Medium → Hard |
+| Tries | 🔄 In Progress | 4 files | Medium → Hard |
+| Segment Trees | 📅 Planned | — | — |
+| Disjoint Set Union | 📅 Planned | — | — |
 
 ---
 
 ### 🧠 Algorithms & Paradigms
 
-![Dynamic Programming](https://img.shields.io/badge/Dynamic_Programming-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Recursion & Backtracking](https://img.shields.io/badge/Recursion_%26_Backtracking-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Greedy Algorithms](https://img.shields.io/badge/Greedy_Algorithms-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
-![Math & Number Theory](https://img.shields.io/badge/Math_%26_Number_Theory-Planned-8b8b8b?style=for-the-badge&logo=java&logoColor=white)
+| Topic | Status | Files | Difficulty Range |
+|---|---|---|---|
+| Dynamic Programming | ✅ Solved | 54 files | Easy → Hard |
+| Recursion & Backtracking | ✅ Solved | 20 files | Easy → Hard |
+| Greedy Algorithms | ✅ Solved | 16 files | Easy → Medium |
+| Math & Number Theory | 📅 Planned | — | — |
 
 ---
+
+### 📊 Summary
+
+| Status | Count | Topics |
+|---|---|---|
+| ✅ Solved | 12 | Arrays, Hashing, Sorting, Bit Manipulation, Linked Lists, Stacks & Queues, Two Pointers, Heaps, Trees, Graphs, DP, Recursion, Greedy |
+| 🔄 In Progress | 1 | Tries |
+| 📅 Planned | 3 | Segment Trees, DSU, Math & Number Theory |
+| **Total Topics** | **16** | |
+
+---
+
+> **Legend:** ✅ Solved &nbsp;·&nbsp; 🔄 In Progress &nbsp;·&nbsp; 📅 Planned
 
 
 ---
