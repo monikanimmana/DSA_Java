@@ -46,7 +46,7 @@ Whether you're prepping for FAANG interviews or brushing up on fundamentals, thi
 
 
 ## 🗂️ Repository Structure
-## 🗂️ Repository Structure
+
 
 ```text
 java-dsa-solutions/
@@ -92,14 +92,10 @@ java-dsa-solutions/
 
 > 📝 Folders are added as new problems are solved.
 
-
-> 📝 Structure reflects the actual organization of this repository. Folders are added as new problems are solved.
-
 ---
 
 ## 🧩 Topics & Concepts Covered
 
-## 🧩 Topics & Concepts Covered
 
 <div align="center">
 
