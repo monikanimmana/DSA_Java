@@ -3,7 +3,7 @@
 # ☕ Java DSA & Competitive Programming Solutions
 
 [![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/monika_nimmana/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-109_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/monika_nimmana/)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Solutions-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/monikanimmanah)
 [![HackerRank](https://img.shields.io/badge/HackerRank-Solutions-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/monikanimmana331)
 [![GitHub Stars](https://img.shields.io/github/stars/monikanimmana/DSA_Java?style=for-the-badge&logo=github&color=yellow)](https://github.com/monikanimmana/DSA_Java/stargazers)
@@ -34,13 +34,13 @@ Whether you're prepping for FAANG interviews or brushing up on fundamentals, thi
 
 | Platform | Problems Solved | Topics Covered | Difficulty Levels |
 |---|---|---|---|
-| LeetCode | `[COUNT]` | Arrays, DP, Graphs, Trees, Strings, Backtracking | Easy / Medium / Hard |
+| LeetCode | `109` · Easy: 49 · Med: 56 · Hard: 4 | Arrays, DP, Graphs, Trees, Strings, Backtracking | Easy / Medium / Hard |
 | GeeksforGeeks | `[COUNT]` | Arrays, Linked Lists, Trees, Sorting, Hashing | School / Basic / Medium / Hard |
 | HackerRank | `[COUNT]` | Data Structures, Algorithms, Java Basics | Easy / Medium / Hard |
 | Codio | `[COUNT]` | Core Java, OOP, Assignments | — |
-| **Total** | **`[TOTAL]`** | **15+ DSA Topics** | **All Levels** |
+| **Total** | **`109+`** | **15+ DSA Topics** | **All Levels** |
 
-> 💡 Update counts as you add more solutions. Open the repo folder in Kiro to auto-fill these.
+> 💡 LeetCode count is live. Share GFG and HackerRank numbers to complete this table.
 
 ---
 
@@ -199,6 +199,9 @@ java TwoSum
 
 ```java
 // File: LeetCode/Easy/TwoSum.java
+// Problem: Given an array of integers, return indices of two numbers that add up to target.
+// Time Complexity: O(n) | Space Complexity: O(n)
+
 import java.util.HashMap;
 
 public class TwoSum {
@@ -226,12 +229,12 @@ public class TwoSum {
 
 ## 📈 Progress Tracker
 
-| Platform | Progress | Solved |
+| Platform | Difficulty Breakdown | Total |
 |---|---|---|
-| 🟡 LeetCode | ![](https://img.shields.io/badge/progress-updating-FFA116?style=flat-square) | `[COUNT]` / 2000+ |
-| 🟢 GeeksforGeeks | ![](https://img.shields.io/badge/progress-updating-2F8D46?style=flat-square) | `[COUNT]` / 500+ |
-| 🟩 HackerRank | ![](https://img.shields.io/badge/progress-updating-00EA64?style=flat-square) | `[COUNT]` / 400+ |
-| 🔵 Codio | ![](https://img.shields.io/badge/progress-updating-0052CC?style=flat-square) | `[COUNT]` / N/A |
+| 🟡 LeetCode | ![Easy](https://img.shields.io/badge/Easy-49-00b8a3?style=flat-square) ![Medium](https://img.shields.io/badge/Medium-56-FFA116?style=flat-square) ![Hard](https://img.shields.io/badge/Hard-4-EF4743?style=flat-square) | **109 / 3928** |
+| 🟢 GeeksforGeeks | ![](https://img.shields.io/badge/Count-updating-2F8D46?style=flat-square) | `[COUNT]` |
+| 🟩 HackerRank | ![](https://img.shields.io/badge/Count-updating-00EA64?style=flat-square) | `[COUNT]` |
+| 🔵 Codio | ![](https://img.shields.io/badge/Count-updating-0052CC?style=flat-square) | `[COUNT]` |
 
 > 🔄 Updated regularly as new solutions are added.
 
