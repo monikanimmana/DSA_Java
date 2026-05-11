@@ -94,47 +94,54 @@ java-dsa-solutions/
 
 ---
 
+---
+
 ## 🧩 Topics & Concepts Covered
 
-<div align="center">
+> Organized by category · Color coded by status
 
-### ✅ Currently Solved
+![Solved](https://img.shields.io/badge/Solved-2ea44f?style=flat-square) 
+![In Progress](https://img.shields.io/badge/In_Progress-f0a500?style=flat-square) 
+![Planned](https://img.shields.io/badge/Planned-8b8b8b?style=flat-square)
 
-<table>
-  <tr>
-    <td align="center">🟢 Arrays &amp; Strings</td>
-    <td align="center">🟢 Linked Lists</td>
-    <td align="center">🟢 Stacks &amp; Queues</td>
-    <td align="center">🟢 Trees &amp; BST</td>
-    <td align="center">🟢 Graphs BFS/DFS</td>
-  </tr>
-  <tr>
-    <td align="center">🟢 Dynamic Programming</td>
-    <td align="center">🟢 Recursion & Backtracking</td>
-    <td align="center">🟢 Sorting & Searching</td>
-    <td align="center">🟢 Hashing</td>
-    <td align="center">🟢 Greedy Algorithms</td>
-  </tr>
-  <tr>
-    <td align="center">🟢 Two Pointers / Sliding Window</td>
-    <td align="center">🟢 Bit Manipulation</td>
-    <td align="center">🟢 Heaps & Priority Queues</td>
-    <td align="center"></td>
-    <td align="center"></td>
-  </tr>
-</table>
+---
 
-### 🔜 Coming Soon
+### 🔢 Foundations
 
-<table>
-  <tr>
-    <td align="center">🟡 Tries &nbsp;<sub><i>In Progress</i></sub></td>
-    <td align="center">⚪ Segment Trees &nbsp;<sub><i>Planned</i></sub></td>
-    <td align="center">⚪ Disjoint Set Union &nbsp;<sub><i>Planned</i></sub></td>
-  </tr>
-</table>
+![Arrays & Strings](https://img.shields.io/badge/Arrays_%26_Strings-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Hashing](https://img.shields.io/badge/Hashing-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Sorting & Searching](https://img.shields.io/badge/Sorting_%26_Searching-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Bit Manipulation](https://img.shields.io/badge/Bit_Manipulation-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
 
-</div>
+---
+
+### 🔗 Linear Data Structures
+
+![Linked Lists](https://img.shields.io/badge/Linked_Lists-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Stacks & Queues](https://img.shields.io/badge/Stacks_%26_Queues-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Two Pointers / Sliding Window](https://img.shields.io/badge/Two_Pointers_%2F_Sliding_Window-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Heaps & Priority Queues](https://img.shields.io/badge/Heaps_%26_Priority_Queues-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+
+---
+
+### 🌲 Trees & Graphs
+
+![Trees & BST](https://img.shields.io/badge/Trees_%26_BST-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Graphs BFS/DFS](https://img.shields.io/badge/Graphs_BFS%2FDFS-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Tries](https://img.shields.io/badge/Tries-In_Progress-f0a500?style=for-the-badge&logo=java&logoColor=white)
+![Segment Trees](https://img.shields.io/badge/Segment_Trees-Planned-8b8b8b?style=for-the-badge&logo=java&logoColor=white)
+![Disjoint Set Union](https://img.shields.io/badge/Disjoint_Set_Union-Planned-8b8b8b?style=for-the-badge&logo=java&logoColor=white)
+
+---
+
+### 🧠 Algorithms & Paradigms
+
+![Dynamic Programming](https://img.shields.io/badge/Dynamic_Programming-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Recursion & Backtracking](https://img.shields.io/badge/Recursion_%26_Backtracking-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Greedy Algorithms](https://img.shields.io/badge/Greedy_Algorithms-Solved-2ea44f?style=for-the-badge&logo=java&logoColor=white)
+![Math & Number Theory](https://img.shields.io/badge/Math_%26_Number_Theory-Planned-8b8b8b?style=for-the-badge&logo=java&logoColor=white)
+
+---
 
 
 ---
