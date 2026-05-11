@@ -46,7 +46,51 @@ Whether you're prepping for FAANG interviews or brushing up on fundamentals, thi
 
 
 ## 🗂️ Repository Structure
-📦 java-dsa-solutions/ │ ├── 📁 LeetCode/ │ ├── 📁 Easy/ │ │ ├── TwoSum.java │ │ ├── ReverseString.java │ │ └── ... │ ├── 📁 Medium/ │ │ ├── LongestSubstringWithoutRepeating.java │ │ ├── AddTwoNumbers.java │ │ └── ... │ └── 📁 Hard/ │ ├── MedianOfTwoSortedArrays.java │ └── ... │ ├── 📁 GeeksforGeeks/ │ ├── 📁 Arrays/ │ ├── 📁 LinkedLists/ │ ├── 📁 Trees/ │ ├── 📁 DynamicProgramming/ │ ├── 📁 Graphs/ │ ├── 📁 Sorting/ │ └── 📁 Hashing/ │ ├── 📁 HackerRank/ │ ├── 📁 DataStructures/ │ │ ├── Arrays/ │ │ ├── LinkedLists/ │ │ └── Trees/ │ └── 📁 Algorithms/ │ ├── Sorting/ │ ├── Searching/ │ └── Greedy/ │ ├── 📁 Codio/ │ ├── 📁 Assignments/ │ └── 📁 Projects/ │ └── 📄 README.md
+## 🗂️ Repository Structure
+
+```text
+java-dsa-solutions/
+│
+├── LeetCode/
+│   ├── Easy/
+│   │   ├── TwoSum.java
+│   │   ├── ReverseString.java
+│   │   └── ...
+│   ├── Medium/
+│   │   ├── LongestSubstringWithoutRepeating.java
+│   │   ├── AddTwoNumbers.java
+│   │   └── ...
+│   └── Hard/
+│       ├── MedianOfTwoSortedArrays.java
+│       └── ...
+│
+├── GeeksforGeeks/
+│   ├── Arrays/
+│   ├── LinkedLists/
+│   ├── Trees/
+│   ├── DynamicProgramming/
+│   ├── Graphs/
+│   ├── Sorting/
+│   └── Hashing/
+│
+├── HackerRank/
+│   ├── DataStructures/
+│   │   ├── Arrays/
+│   │   ├── LinkedLists/
+│   │   └── Trees/
+│   └── Algorithms/
+│       ├── Sorting/
+│       ├── Searching/
+│       └── Greedy/
+│
+├── Codio/
+│   ├── Assignments/
+│   └── Projects/
+│
+└── README.md
+```
+
+> 📝 Folders are added as new problems are solved.
 
 
 > 📝 Structure reflects the actual organization of this repository. Folders are added as new problems are solved.
@@ -55,21 +99,33 @@ Whether you're prepping for FAANG interviews or brushing up on fundamentals, thi
 
 ## 🧩 Topics & Concepts Covered
 
-- [x] Arrays & Strings
-- [x] Linked Lists
-- [x] Stacks & Queues
-- [x] Trees & Binary Search Trees
-- [x] Graphs (BFS / DFS)
-- [x] Dynamic Programming
-- [x] Recursion & Backtracking
-- [x] Sorting & Searching
-- [x] Hashing & Hash Maps
-- [x] Greedy Algorithms
-- [x] Two Pointers / Sliding Window
-- [x] Bit Manipulation
-- [x] Heaps & Priority Queues
-- [ ] Tries
-- [ ] Segment Trees
+## 🧩 Topics & Concepts Covered
+
+<div align="center">
+
+### ✅ Currently Solved
+
+![Arrays](https://img.shields.io/badge/Arrays_%26_Strings-✔-brightgreen?style=for-the-badge)
+![Linked Lists](https://img.shields.io/badge/Linked_Lists-✔-brightgreen?style=for-the-badge)
+![Stacks & Queues](https://img.shields.io/badge/Stacks_%26_Queues-✔-brightgreen?style=for-the-badge)
+![Trees](https://img.shields.io/badge/Trees_%26_BST-✔-brightgreen?style=for-the-badge)
+![Graphs](https://img.shields.io/badge/Graphs_BFS%2FDFS-✔-brightgreen?style=for-the-badge)
+![DP](https://img.shields.io/badge/Dynamic_Programming-✔-brightgreen?style=for-the-badge)
+![Recursion](https://img.shields.io/badge/Recursion_%26_Backtracking-✔-brightgreen?style=for-the-badge)
+![Sorting](https://img.shields.io/badge/Sorting_%26_Searching-✔-brightgreen?style=for-the-badge)
+![Hashing](https://img.shields.io/badge/Hashing-✔-brightgreen?style=for-the-badge)
+![Greedy](https://img.shields.io/badge/Greedy_Algorithms-✔-brightgreen?style=for-the-badge)
+![Two Pointers](https://img.shields.io/badge/Two_Pointers_%2F_Sliding_Window-✔-brightgreen?style=for-the-badge)
+![Bit Manipulation](https://img.shields.io/badge/Bit_Manipulation-✔-brightgreen?style=for-the-badge)
+![Heaps](https://img.shields.io/badge/Heaps_%26_Priority_Queues-✔-brightgreen?style=for-the-badge)
+
+### 🔜 Coming Soon
+
+![Tries](https://img.shields.io/badge/Tries-In_Progress-orange?style=for-the-badge)
+![Segment Trees](https://img.shields.io/badge/Segment_Trees-Planned-lightgrey?style=for-the-badge)
+
+</div>
+
 
 > ✅ Checked topics have at least one solution in the repo. Unchecked are planned.
 
