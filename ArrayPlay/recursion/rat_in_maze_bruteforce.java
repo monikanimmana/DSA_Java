@@ -1,5 +1,5 @@
 
-public class rat_in_maze {
+public class rat_in_maze_bruteforce {
     public void ratmaze(int [][]maze){
         int n=maze.length;
         int visited[][]=new int[n][n];
