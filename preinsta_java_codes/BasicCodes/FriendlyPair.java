@@ -1,4 +1,4 @@
-package BasicCodes;
+
 
 public class FriendlyPair {
     void friendlypair(int n1, int n2){

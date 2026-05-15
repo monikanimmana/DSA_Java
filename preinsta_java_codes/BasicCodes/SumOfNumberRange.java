@@ -1,4 +1,4 @@
-package BasicCodes;
+
 import java.util.Scanner;
 
 public class SumOfNumberRange {

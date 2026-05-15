@@ -1,4 +1,3 @@
-package BasicCodes;
 
 public class PerfectNumber {
     void perfectnumber(int n){

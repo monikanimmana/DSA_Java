@@ -1,4 +1,4 @@
-package BasicCodes;
+
 
 public class Armstrong {
 

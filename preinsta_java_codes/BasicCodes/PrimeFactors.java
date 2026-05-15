@@ -1,4 +1,4 @@
-package BasicCodes;
+
 public class PrimeFactors {
     void primefactor(int n){
         for(int i=2;i<=n;i++){

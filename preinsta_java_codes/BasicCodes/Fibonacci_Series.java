@@ -1,4 +1,4 @@
-package BasicCodes;
+
 public class Fibonacci_Series {
     void fibonacci(int n){
         int a=0;

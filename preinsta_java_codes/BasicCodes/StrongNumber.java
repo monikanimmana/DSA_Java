@@ -1,4 +1,4 @@
-package BasicCodes;
+
 
 public class StrongNumber {
     void strongnumber(int n){

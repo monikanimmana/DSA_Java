@@ -1,4 +1,4 @@
-package BasicCodes;
+
 
 public class FactorsNumber {
     void factornumber(int n){

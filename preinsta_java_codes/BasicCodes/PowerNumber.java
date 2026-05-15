@@ -1,4 +1,4 @@
-package BasicCodes;
+
 public class PowerNumber {
     int result=1;
     void powernumber(int n,int p){

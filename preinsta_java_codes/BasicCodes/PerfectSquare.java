@@ -1,4 +1,4 @@
-package BasicCodes;
+
 
 public class PerfectSquare {
         void perfectsquare(int n){

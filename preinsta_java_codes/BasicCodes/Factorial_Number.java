@@ -1,4 +1,4 @@
-package BasicCodes;
+
 public class Factorial_Number {
     void factorial(int n){
         int fact=1;

@@ -6,7 +6,7 @@ public class GCD {
         int nums1=sc.nextInt();
         int nums2=sc.nextInt();
         int n=Math.min(nums1,nums2);
-        int gcd;
+        int gcd=0;
         for(int i=1;i<=n;i++){
             if(nums1%i==0&&nums2%i==0){
                 gcd=i;

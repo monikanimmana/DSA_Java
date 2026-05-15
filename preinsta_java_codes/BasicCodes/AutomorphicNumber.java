@@ -1,4 +1,3 @@
-package BasicCodes;
 
 public class AutomorphicNumber {
     void automorphic(int n){

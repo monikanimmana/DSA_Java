@@ -1,4 +1,4 @@
-package BasicCodes;
+
 import java.util.*;
 
 public class PrimeNumber {

@@ -1,4 +1,4 @@
-package BasicCodes;
+
 
 public class HarshadNumber {
     void harshadnumber(int n){

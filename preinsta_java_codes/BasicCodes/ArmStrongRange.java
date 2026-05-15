@@ -1,4 +1,4 @@
-package BasicCodes;
+
 
 public class ArmStrongRange {
     void armstrong(int fn,int ln){
