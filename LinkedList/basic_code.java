@@ -7,24 +7,56 @@ public class basic_code{
             this.next=null;
         }
     }
-    public static void main(String[] args) {
-        Node n1=new Node(10);
-        Node n2=new Node(20);
-        Node n3=new Node(30);
-        Node n4=new Node(40);
+    Node head ;
+    Node tail;
 
-        n1.next=n2;
-        n2.next=n3;
-        n3.next=n4;
-        
-        Node temp=n1;
+    public void insert(int data){
+        Node newnode = new Node(data);
+        if(head == null){
+            head=newnode;
+            tail=newnode;
 
-        while(temp!=null){
-            System.out.print(temp.data + " --> ");
+        }else{
+            tail.next=newnode;
+            tail=newnode;
+        }
+    }
+
+    public void printnode(){
+        Node temp=head;
+        while(temp != null){
+            System.out.print(temp.data + "->" );
             temp=temp.next;
         }
-
-        System.out.println("null");
-
+        System.out.print("null");
     }
+    public static void main(String[] args) {
+        basic_code obj=new basic_code();
+        obj.insert(10);
+        obj.insert(20);
+        obj.insert(30);
+        obj.insert(40);
+        obj.printnode();
+    }
+    // public static void main(String[] args) {
+    //     Node n1=new Node(10);
+    //     Node n2=new Node(20);
+    //     Node n3=new Node(30);
+    //     Node n4=new Node(40);
+
+    //     n1.next=n2;
+    //     n2.next=n3;
+    //     n3.next=n4;
+        
+    //     Node temp=n1;
+
+    //     while(temp!=null){
+    //         System.out.print(temp.data + " --> ");
+    //         temp=temp.next;
+    //     }
+
+    //     System.out.println("null");
+
+    // }
 }
+
