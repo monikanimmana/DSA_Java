@@ -1,5 +1,6 @@
-import java.util.Arrays;
-class Node{
+
+public class deletionNode{
+    class Node{
         int data;
         Node next;
 
@@ -8,9 +9,8 @@ class Node{
             this.next=null;
         }
     }
-public class deletionNode{
 
-    static Node convertto(int []arr){
+    public Node convertto(int []arr){
         if(arr.length==0){
             return null;
         }
@@ -29,9 +29,8 @@ public class deletionNode{
             System.out.print(temp.data + " --> ");
             temp=temp.next;
         }
-
         System.out.print("null");
-
+        System.out.println();
     }
 
     static Node deleteHead(Node head){
@@ -42,12 +41,51 @@ public class deletionNode{
         return head;
     }
 
-    static Node deleteTail()
+    static Node deleteTail(Node head){
+        Node temp=head;
+        if(head == null || head.next==null){
+            return null;
+        }
+        while(temp.next.next!=null){
+            temp=temp.next;
+        }
+        temp.next=null;
+        return head;
+    }
+    
+    static Node deletePosition(Node head , int k){
+        if(head == null || k==0){
+            return null;
+        }
+        if(k==1){
+            head=head.next;
+            return head;
+        }
+        int count=0;
+        Node temp=head;
+        Node prev=null;
+        while(temp!=null){
+            count++;
+            if(count == k){
+                prev.next=prev.next.next;
+                break;
+            }
+            prev=temp;
+            temp=temp.next;
+        }
+        return head;
+
+    }
 
     public static void main(String[] args) {
-        int []arr=new int[]{1,2,3,4};
-        Node head = convertto(arr);
+        deletionNode obj=new deletionNode();
+        int []arr=new int[]{1,2,3,4,5,6,7,8};
+        Node head = obj.convertto(arr);
         head = deleteHead(head);
+        traversal(head);
+        deleteTail(head);
+        traversal(head);
+        deletePosition(head, 3);
         traversal(head);
 
     }
