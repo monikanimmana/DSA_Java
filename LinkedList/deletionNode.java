@@ -76,6 +76,22 @@ public class deletionNode{
         return head;
 
     }
+    static Node deletionValue(Node head , int value){
+        if(head==null){
+            return null;
+        }
+        Node temp=head;
+        Node prev=null;
+        while(temp!=null){
+            if(temp.data == value){
+                prev.next=prev.next.next;
+                break;
+            }
+            prev=temp;
+            temp=temp.next;
+        }
+        return head;
+    }
 
     public static void main(String[] args) {
         deletionNode obj=new deletionNode();
@@ -86,6 +102,8 @@ public class deletionNode{
         deleteTail(head);
         traversal(head);
         deletePosition(head, 3);
+        traversal(head);
+        deletionValue(head , 7);
         traversal(head);
 
     }
