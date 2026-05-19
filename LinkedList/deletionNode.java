@@ -54,10 +54,10 @@ public class deletionNode{
     }
     
     static Node deletePosition(Node head , int k){
-        if(head == null || k==0){
+        if(head == null){
             return null;
         }
-        if(k==1){
+        if(k==0){
             head=head.next;
             return head;
         }
@@ -79,6 +79,9 @@ public class deletionNode{
     static Node deletionValue(Node head , int value){
         if(head==null){
             return null;
+        }
+        if(head.data==value){
+            return head.next;
         }
         Node temp=head;
         Node prev=null;
