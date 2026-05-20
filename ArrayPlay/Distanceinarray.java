@@ -1,19 +1,23 @@
 public class Distanceinarray {
     public int find(int arr[]){
-        int dist=1;;
-
+        int dist=Integer.MAX_VALUE;
+        int index=-1;
         for(int i=0;i<arr.length;i++){
-            for(int j=i+1;j<arr.length;j++){
-                if(arr[i]>0 && arr[j]>0){
-                    dist=Math.min(dist,(j-i));
+            if(arr[i]%2==0){
+                if(index!=-1){
+                    dist = Math.min(dist, i-index);
                 }
-            }    
+                index=i;  
+            }           
+        }if(dist == Integer.MAX_VALUE){
+            return -1;
         }
         return dist;
+        
     }
     public static void main(String[] args) {
         Distanceinarray obj=new Distanceinarray();
-        int arr[]=new int[]{-1,-3,-1,-2,-1,-3};
+        int arr[]=new int[]{43,15,7,31,5};
         System.out.println(obj.find(arr));
     }
 }
