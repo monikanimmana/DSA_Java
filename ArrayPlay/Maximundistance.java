@@ -12,7 +12,7 @@ public class Maximundistance {
         return dist;
     }
     public static void main(String[] args) {
-        int arr[]=new int[]{1,2,2,1,3};
+        int arr[]=new int[]{5,3,4,5,2,3};
         System.out.println(find(arr));
         
     }
