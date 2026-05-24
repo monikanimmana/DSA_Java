@@ -58,3 +58,29 @@ public class LC_75{
 //             }
 //             i++;
 //         }
+
+//ListNode approach
+
+// ListNode zeroHead=new ListNode(-1);
+// ListNode OneHead=new ListNode(-1);
+// ListNode TwoHead=new ListNode(-1);
+// ListNode zero=zeroHead;
+// ListNode one=OneHead;
+// ListNode two=TwoHead;
+// ListNode temp=head;
+// while(temp!=null){
+//     if(temp.val==0){
+//         zero.next=temp;
+//         zero=zero.next;
+//     }else if(temp.val==1){
+//         one.next=temp;
+//         one=one.next;
+//     }else{
+//         two.next=temp;
+//         two=two.next;
+//     }
+// }
+// zero.next=OneHead.next;
+// one.next=TwoHead.next;
+// two.next=null;
+// return zeroHead.next;
