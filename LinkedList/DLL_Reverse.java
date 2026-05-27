@@ -44,6 +44,7 @@ public class DLL_Reverse {
             curr.next=temp;
             curr=curr.prev;   
         }
+        if(temp!=null) head=temp.prev;
         return head;
     }
     public static void main(String[] args) {
@@ -51,10 +52,9 @@ public class DLL_Reverse {
         int arr[]=new int[]{1,2,3,4,5,6,7,8,9};
         DLL list=obj.creation(arr);
         ListNode head=list.head;
-        ListNode tail=list.tail;
+        ListNode tail=list.tail;     
         traversalForward(head);
         head=reverseDLL(head);
-        traversalForward(head);
-        
+        traversalForward(head);   
     }
 }
