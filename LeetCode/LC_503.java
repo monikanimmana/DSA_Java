@@ -11,11 +11,14 @@ public class LC_503 {
                 st.pop();
             }
 
-            if(st.isEmpty()){
-                res[i%n]=-1;
+            if(i<n){
 
-            }else{
-                res[i%n] = st.peek();
+                if(st.isEmpty()){
+                    res[i%n]=-1;
+
+                }else{
+                    res[i%n] = st.peek();
+                }
             }
             st.push(nums[i%n]);
         }
