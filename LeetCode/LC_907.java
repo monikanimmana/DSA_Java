@@ -7,7 +7,7 @@ public class LC_907{
         int left[]=new int[n];
         int right[]=new int[n];
         for(int i=0;i<n;i++){
-            while(!st.isEmpty() && arr[i] <= arr[st.peek()]){
+            while(!st.isEmpty() && arr[st.peek()] > arr[i]){
                 st.pop();
             }
             if(st.isEmpty()){
@@ -40,7 +40,7 @@ public class LC_907{
             int leftcount= i - left[i];
             int rightcount = right[i]-i;
 
-            mini = arr[i] * leftcount * rightcount;
+            mini += arr[i] * leftcount * rightcount;
         }
 
         return mini;
